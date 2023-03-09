@@ -15,4 +15,4 @@ jobs:
       
     - name: print hello world
       run: |
-       echo "Hello welcome to Github actions"
+       java -version 
