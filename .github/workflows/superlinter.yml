@@ -6,11 +6,11 @@ jobs:
   super-lint:
     name: Lint code base
     runs-on: ubuntu-latest
-    steps:
+    stepS :
     - name: Checkout code
       uses: actions/checkout@v2
       
-      - name: Runn Super-Linter
+      - name: Run Super-Linter
         uses: github/super-linter@v3
         env:
         DEFAULT_BRANCH: main
